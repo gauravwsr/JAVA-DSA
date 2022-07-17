@@ -66,7 +66,23 @@ public class Assignment01 {
 
 
 //        7. To calculate Fibonacci Series up to n numbers.
+//        output:- 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,...n
+//        System.out.println("Enter the Number:- ");
+//        int n = sc.nextInt();
+//        int f=1,s=1,t=0;
+//        System.out.println(f);
+//        System.out.println(s);
+//        for (int i=3;i<=n;i++){
+//            t=f+s; //3rd term = first term + second term
+//            System.out.println(t);
+//            f=s; //here first term will be the second term
+//            s=t; // here second term will be the 3rd term
+//        }
 
+//        8. To find out whether the given String is Palindrome or not.
+
+
+//        9. To find Armstrong Number between two given number.
     }
 }
 
