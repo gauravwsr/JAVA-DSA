@@ -90,16 +90,19 @@ public class Assignment01 {
 //             System.out.println(rev);
 
 //        9. To find Armstrong Number between two given number.
-        int num = 153,temp,result=0;
-         while (num <= 0){
+        System.out.println("Enter the Number:- ");
+        int Original_num = sc.nextInt();
+        int result = 0,num;
+         num = Original_num;
+        while (num>0){
             int rem = num%10;
-            result += Math.pow(rem,3);
-            num=num/10;
-         }
-        if(result == num)
-            System.out.println(num + " is an Armstrong number.");
+            result = (int)(result+Math.pow(rem,3));
+            num = num/10;
+        }
+        if(result == Original_num)
+            System.out.println(Original_num + " is an Armstrong number.");
         else
-            System.out.println(num + " is not an Armstrong number.");
+            System.out.println(Original_num + " is not an Armstrong number.");
     }
 }
 
