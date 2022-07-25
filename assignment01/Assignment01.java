@@ -93,7 +93,7 @@ public class Assignment01 {
         System.out.println("Enter the Number:- ");
         int Original_num = sc.nextInt();
         int result = 0,num;
-         num = Original_num;
+         num=Original_num;
         while (num>0){
             int rem = num%10;
             result = (int)(result+Math.pow(rem,3));
