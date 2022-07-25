@@ -80,24 +80,26 @@ public class Assignment01 {
 //        }
 
 //        8. To find out whether the given String is Palindrome or not.
-                System.out.println("enter the String:- ");
-                String str = sc.nextLine();
-                String reverseStr = "";
-
-        int strLength = str.length();
-
-        for (int i = (strLength - 1); i >=0; --i) {
-            reverseStr = reverseStr + str.charAt(i);
-        }
-
-        if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
-            System.out.println(str + " is a Palindrome String.");
-        }
-        else {
-            System.out.println(str + " is not a Palindrome String.");
-        }
+//                System.out.println("Enter the String:- ");
+//                String str = sc.next();
+//                String rev= "";
+//               for (int i=0;i<str.length();i++){
+//                   char ch = str.charAt(i);
+//                   rev = ch+rev;
+//               }
+//             System.out.println(rev);
 
 //        9. To find Armstrong Number between two given number.
+        int num = 153,temp,result=0;
+         while (num <= 0){
+            int rem = num%10;
+            result += Math.pow(rem,3);
+            num=num/10;
+         }
+        if(result == num)
+            System.out.println(num + " is an Armstrong number.");
+        else
+            System.out.println(num + " is not an Armstrong number.");
     }
 }
 
