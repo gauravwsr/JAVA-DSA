@@ -101,7 +101,7 @@ public class Assignment_2 {
 //             int h = sc.nextInt();
 //             int area_of_parallelogram =b*h;
 //             System.out.println("Area of parallelogram:- "+area_of_parallelogram);
-//         [Subtract the Product and Sum of Digits of an Integer]
+        //   22. [Subtract the Product and Sum of Digits of an Integer]
 //         (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 //        System.out.println("Enter the value of n:- ");
 //        int n=sc.nextInt();
@@ -114,16 +114,55 @@ public class Assignment_2 {
 //        }
 //        result = POD-SOD;
 //        System.out.println(result);
-        System.out.println("Enter x:- ");//121
-        int x = sc.nextInt();
-        int num=0,origin_Num=x;
-        while(x>0){
-            int rem = x%10;
-            num = num*10+rem;
-            x/=10;
-        }
-        if (num==origin_Num){
-            System.out.println(origin_Num+" is an p number");
+        // Palindrome Number
+//        System.out.println("Enter x:- ");//121
+//        int x = sc.nextInt();
+//        int num=0,origin_Num=x;
+//        while(x>0){
+//            int rem = x%10;
+//            num = num*10+rem;
+//            x/=10;
+//        }
+//        if (num==origin_Num){
+//            System.out.println(origin_Num+" is an Palindrome number");
+//        }else {
+//            System.out.println(origin_Num+" is not an Palindrome number");
+//        }
+//        6. Area Of Rhombus
+//           System.out.println("Enter the base1:- ");
+//           float base1 =sc.nextFloat();
+//           System.out.println("Enter the base2:- ");
+//           float base2 =sc.nextFloat();
+//           float area_of_ISO_rhombus =(base1*base2)/2;
+//           System.out.println(area_of_ISO_rhombus);
+//        7. Area Of Equilateral Triangle
+//            System.out.println("Enter the area:- ");
+//            float a =sc.nextFloat();
+//            float Area_of_equilateral_triangle =()*(a)*2;
+//            System.out.println(Area_of_equilateral_triangle);
+//        8. Perimeter Of Circle
+//        9. Perimeter Of Equilateral Triangle
+//        10. Perimeter Of Parallelogram
+//        11. Perimeter Of Rectangle
+//        12. Perimeter Of Square
+//        13. Perimeter Of Rhombus
+//        14. Volume Of Cone Java Program
+//        15. Volume Of Prism
+//        16. Volume Of Cylinder
+//        17. Volume Of Sphere
+//        18. Volume Of Pyramid
+//        19. Curved Surface Area Of Cylinder
+//        20. Total Surface Area Of Cube
+//        21. Fibonacci Series In Java Programs
+        System.out.println("enter the Number of fibonacci position:- ");
+        int n = sc.nextInt();
+        System.out.print("0,1");
+        int a=0,b=1,sum;
+        for (int i=1;i<=n;i++){
+            sum = a+b;
+            System.out.print(","+sum);
+            a=b;
+            b=sum;
         }
     }
 }
