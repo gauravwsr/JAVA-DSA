@@ -166,12 +166,38 @@ public class Assignment_2 {
 //        result = POD-SOD;
 //        System.out.println(result);
         // 23. Input a number and print all the factors of that number (use loops).
-        System.out.println("Enter the number:- ");
-        int n = sc.nextInt();
-        int fact = 1;
-        for (int i=n;i>=1;i--){
-             fact = fact*i;
+//        System.out.println("Enter the number:- ");
+//        int n = sc.nextInt();
+//        int fact = 1;
+//        for (int i=n;i>=1;i--){
+//             fact = fact*i;
+//        }
+//        System.out.println(fact);
+        //24. Take integer inputs till the user enters 0 and print the sum of all numbers
+        //  (HINT: while loop)
+//        int Sum=0;
+//        while (true){
+//            System.out.println("Enter the value A = ");
+//            int a = sc.nextInt();
+//            Sum = Sum+a;
+//            System.out.println("press 0 to exit the loop");
+//            if (a==0){
+//                break;
+//            }
+//        }
+//        System.out.println("Sum of all Number = "+Sum);
+       // 25. Take integer inputs till the user enters 0 and print the largest number from all.
+        int small = 0;
+        int lrg = 0;
+        while (true){
+            System.out.println("Enter the number:- ");
+            lrg=sc.nextInt();
+
+            if (){
+
+            } else if (lrg==0) {
+                break;
+            }
         }
-        System.out.println(fact);
     }
 }
