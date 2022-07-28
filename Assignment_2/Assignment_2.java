@@ -101,19 +101,7 @@ public class Assignment_2 {
 //             int h = sc.nextInt();
 //             int area_of_parallelogram =b*h;
 //             System.out.println("Area of parallelogram:- "+area_of_parallelogram);
-        //   22. [Subtract the Product and Sum of Digits of an Integer]
-//         (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
-//        System.out.println("Enter the value of n:- ");
-//        int n=sc.nextInt();
-//        int POD=1,SOD=0,result;
-//        while(n>0){
-//            int rem = n%10;
-//            POD = rem*POD;
-//            SOD = SOD+rem;
-//            n=n/10;
-//        }
-//        result = POD-SOD;
-//        System.out.println(result);
+
         // Palindrome Number
 //        System.out.println("Enter x:- ");//121
 //        int x = sc.nextInt();
@@ -153,16 +141,37 @@ public class Assignment_2 {
 //        18. Volume Of Pyramid
 //        19. Curved Surface Area Of Cylinder
 //        20. Total Surface Area Of Cube
-//        21. Fibonacci Series In Java Programs
-        System.out.println("enter the Number of fibonacci position:- ");
+        //21. Fibonacci Series In Java Programs
+//          System.out.println("enter the Number of fibonacci position:- ");
+//          int n = sc.nextInt();
+//          System.out.print("0,1");
+//          int a=0,b=1,sum;
+//          for (int i=1;i<=n;i++){
+//              sum = a+b;
+//              System.out.print(","+sum);
+//              a=b;
+//              b=sum;
+//          }
+    //22. [Subtract the Product and Sum of Digits of an Integer]
+//         (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+//        System.out.println("Enter the value of n:- ");
+//        int n=sc.nextInt();
+//        int POD=1,SOD=0,result;
+//        while(n>0){
+//            int rem = n%10;
+//            POD = rem*POD;
+//            SOD = SOD+rem;
+//            n=n/10;
+//        }
+//        result = POD-SOD;
+//        System.out.println(result);
+        // 23. Input a number and print all the factors of that number (use loops).
+        System.out.println("Enter the number:- ");
         int n = sc.nextInt();
-        System.out.print("0,1");
-        int a=0,b=1,sum;
-        for (int i=1;i<=n;i++){
-            sum = a+b;
-            System.out.print(","+sum);
-            a=b;
-            b=sum;
+        int fact = 1;
+        for (int i=n;i>=1;i--){
+             fact = fact*i;
         }
+        System.out.println(fact);
     }
 }
