@@ -65,7 +65,7 @@ public class Assignment_2 {
 //25. Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
 //            26. Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //1. Area Of Circle Java Program
 //        float pi = 3.14f;
@@ -152,7 +152,7 @@ public class Assignment_2 {
 //              a=b;
 //              b=sum;
 //          }
-    //22. [Subtract the Product and Sum of Digits of an Integer]
+        //22. [Subtract the Product and Sum of Digits of an Integer]
 //         (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 //        System.out.println("Enter the value of n:- ");
 //        int n=sc.nextInt();
@@ -186,18 +186,37 @@ public class Assignment_2 {
 //            }
 //        }
 //        System.out.println("Sum of all Number = "+Sum);
-       // 25. Take integer inputs till the user enters 0 and print the largest number from all.
-        int small = 0;
-        int lrg = 0;
-        while (true){
-            System.out.println("Enter the number:- ");
-            lrg=sc.nextInt();
-
-            if (){
-
-            } else if (lrg==0) {
-                break;
+        // 25. Take integer inputs till the user enters 0 and print the largest number from all.
+//        int small = 0;
+//        int lrg = 0;
+//        int number;
+//        while (true){
+//            System.out.println("Enter the number:- ");
+//            number=sc.nextInt();
+//            if (number==0) {
+//                break;
+//            }
+//            if (number > lrg){//lrg=22
+//                    lrg = number;
+//            } else if (number > small) {
+//                small=number;
+//            }
+//            System.out.println("enter 0 to exit the loop!");
+//        }
+//        System.out.println("Small Number :- "+small);
+//        System.out.println("largest Number :- "+lrg);
+        int n = sc.nextInt();
+        int largest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
+        System.out.printf("Please enter %d numbers %n", n);
+        for (int i = 0; i < n; i++)
+        { int current = sc.nextInt();
+            if (current > largest) { largest = current;
+            } if (current < smallest)
+            { smallest = current;
             }
         }
+        System.out.println("largest of N number is : " + largest);
+        System.out.println("smallest of N number is : " + smallest);
     }
 }
