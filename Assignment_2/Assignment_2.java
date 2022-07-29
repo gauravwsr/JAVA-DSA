@@ -205,18 +205,61 @@ public class Assignment_2 {
 //        }
 //        System.out.println("Small Number :- "+small);
 //        System.out.println("largest Number :- "+lrg);
-        int n = sc.nextInt();
-        int largest = Integer.MIN_VALUE;
-        int smallest = Integer.MAX_VALUE;
-        System.out.printf("Please enter %d numbers %n", n);
-        for (int i = 0; i < n; i++)
-        { int current = sc.nextInt();
-            if (current > largest) { largest = current;
-            } if (current < smallest)
-            { smallest = current;
-            }
-        }
-        System.out.println("largest of N number is : " + largest);
-        System.out.println("smallest of N number is : " + smallest);
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        int max = a;
+//        if (a > b) {
+//            max = a;
+//        } else {
+//            max = b;
+//        }
+//        int max = Math.max(a, b);
+//
+//        System.out.println(max);
+    //1.  Factorial Program In Java
+//        System.out.println("Enter the number:- ");
+//        int n = sc.nextInt();
+//        int fact = 1;
+//        for (int i=n;i>=1;i--){
+//             fact = fact*i;
+//        }
+//        System.out.println(fact);
+    //2. Calculate Electricity Bill
+//        1 to 100 units – Rs. 10/unit
+//        100 to 200 units – Rs. 15/unit
+//        200 to 300 units – Rs. 20/unit
+//        above 300 units – Rs. 25/unit
+//        System.out.println("Enter the Units:- ");
+//        int u=sc.nextInt();
+//        int Unit;
+//        if (u>=1 && u<=100){
+//            Unit=u*10;
+//            System.out.println("Your Electricity Bill = "+Unit);
+//        } else if (u>=101 && u<=200){
+//            Unit=u*15;
+//            System.out.println("Your Electricity Bill = "+Unit);
+//        }else if (u>=201 && u<=300){
+//            Unit=u*20;
+//            System.out.println("Your Electricity Bill = "+Unit);
+//        }else if (u>=301){
+//            Unit=u*25;
+//            System.out.println("Your Electricity Bill = "+Unit);
+//        }else {
+//            System.out.println("Something went wrong");
+//        }
+//        3. Calculate Average Of N Numbers
+//        int sum=0,count=0,result=0;
+//        while (true){
+//            System.out.println("enter the number:- ");
+//            int n=sc.nextInt();
+//            sum = sum+n;
+//            System.out.println("enter the 0 to exit loop!");
+//            if (n==0) {
+//                result = sum/count;
+//                break;
+//            }
+//            count++;
+//        }
+//        System.out.println(result);
     }
 }
